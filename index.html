@@ -93,30 +93,36 @@
             и мы покажем Вам лучшие предложения в Седоне
           </p>
           <form class="reservation-form" action="#" method="get">
-            <p class="reservation-form-info">Поиск гостиницы в Седоне</p>
-            <p class="reservation-date">
+            <div class="reservation-form-info">
+              Поиск гостиницы в Седоне
+            </div>
+            <div class="reservation-date">
               <label for="arrival-date-field">Дата заезда:</label>
-              <input type="text" name="arrival-date" id="arrival-date-field" placeholder="24 апреля 2017">
-              <span class="choose-date"></span>
-            </p>
-            <p class="reservation-date">
+              <div class="reservation-date-calendar">
+                <input type="text" name="arrival-date" id="arrival-date-field" placeholder="24 апреля 2017">
+                <div class="choose-date"></div>
+              </div>
+            </div>
+            <div class="reservation-date">
               <label for="departure-date-field">Дата выезда:</label>
-              <input type="text" name="departure-date" id="departure-date-field" placeholder="4 июля 2017">
-              <span class="choose-date"></span>
-            </p>
-            <p class="reservation-item">
+              <div class="reservation-date-calendar">
+                <input type="text" name="departure-date" id="departure-date-field" placeholder="4 июля 2017">
+                <div class="choose-date"></div>
+              </div>
+            </div>
+            <div class="reservation-item">
               <label for="adults-field">Взрослые:</label>
               <button class="reservation-button-less">-</button>
               <input type="text" name="adults" id="adults-field" placeholder="2">
               <button class="reservation-button-more">+</button>
-            </p>
-            <p class="reservation-item">
+            </div>
+            <div class="reservation-item">
               <label for="children-field">Дети:</label>
               <button class="reservation-button-less">-</button>            
               <input type="text" name="children" id="children-field" placeholder="0">
               <button class="reservation-button-more">+</button>
-            </p>
-            <input class="reservation-button" type="submit" value="Найти">
+            </div>
+            <button class="reservation-button" type="submit">Найти</button>
           </form>
         </div>
         <section class="modal">
